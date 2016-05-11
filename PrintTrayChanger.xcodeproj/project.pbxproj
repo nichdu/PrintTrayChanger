@@ -10,6 +10,8 @@
 		EB272A611CE1CD5A00817C40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB272A601CE1CD5A00817C40 /* AppDelegate.swift */; };
 		EB272A631CE1CD5A00817C40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB272A621CE1CD5A00817C40 /* Assets.xcassets */; };
 		EB272A661CE1CD5A00817C40 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB272A641CE1CD5A00817C40 /* MainMenu.xib */; };
+		EB272A6E1CE1E25300817C40 /* office-print.png in Resources */ = {isa = PBXBuildFile; fileRef = EB272A6D1CE1E25300817C40 /* office-print.png */; };
+		EB272A721CE1F2C500817C40 /* MyMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB272A711CE1F2C500817C40 /* MyMenuItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		EB272A621CE1CD5A00817C40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB272A651CE1CD5A00817C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		EB272A671CE1CD5A00817C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB272A6D1CE1E25300817C40 /* office-print.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "office-print.png"; sourceTree = "<group>"; };
+		EB272A711CE1F2C500817C40 /* MyMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyMenuItem.swift; path = ../MyMenuItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +54,12 @@
 		EB272A5F1CE1CD5A00817C40 /* PrintTrayChanger */ = {
 			isa = PBXGroup;
 			children = (
+				EB272A711CE1F2C500817C40 /* MyMenuItem.swift */,
 				EB272A601CE1CD5A00817C40 /* AppDelegate.swift */,
 				EB272A621CE1CD5A00817C40 /* Assets.xcassets */,
 				EB272A641CE1CD5A00817C40 /* MainMenu.xib */,
 				EB272A671CE1CD5A00817C40 /* Info.plist */,
+				EB272A6D1CE1E25300817C40 /* office-print.png */,
 			);
 			path = PrintTrayChanger;
 			sourceTree = "<group>";
@@ -90,6 +96,7 @@
 				TargetAttributes = {
 					EB272A5C1CE1CD5A00817C40 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = EKFJG9Q4PU;
 					};
 				};
 			};
@@ -117,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB272A631CE1CD5A00817C40 /* Assets.xcassets in Resources */,
+				EB272A6E1CE1E25300817C40 /* office-print.png in Resources */,
 				EB272A661CE1CD5A00817C40 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB272A611CE1CD5A00817C40 /* AppDelegate.swift in Sources */,
+				EB272A721CE1F2C500817C40 /* MyMenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +239,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PrintTrayChanger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -242,6 +252,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PrintTrayChanger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
