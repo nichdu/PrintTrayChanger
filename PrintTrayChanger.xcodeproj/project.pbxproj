@@ -280,6 +280,7 @@
 				EB272A6C1CE1CD5A00817C40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
